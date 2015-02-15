@@ -9,6 +9,9 @@
 	background-position: 14px 14px;
 	background-repeat: no-repeat;
 }
+.icon-remove{
+	background-position: -312px 0;	
+}
 ul,li{
 	list-style: none;
 	margin: 0;
@@ -96,9 +99,7 @@ body{
 					width: 20px;
 					height: 20px;
 					/*background: transparent url(../img/icon.pgn) 0 0 no-repeat;*/
-					.icon-remove{
-						background-position: -312px 0;	
-					}
+
 
 				}
 				.bg{
@@ -314,5 +315,77 @@ body{
 				/*overflow: hidden;*/
 			}
 		}
+	}
+}
+#campareModal{
+	top: 100px;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	background: #eee;
+	border-radius: 5px;
+}
+#myModalLabel{
+	 margin: 0;
+	.cp-num{
+		display: inline-block;
+		color: #FFF;
+		width: 25px;
+		height: 25px;
+		border-radius: 100%;
+		background: #F60;
+		text-align: center;
+	}	 
+}
+#compareWrap{
+	/*overflow: hidden;*/
+	width: 770px;
+	height: 260px;
+	overflow-x: hidden;
+	overflow-y:auto;
+	.cp-title{
+		color: #222;
+		/*background: #4bb1cf;*/
+		dt,dd{
+			width: 95px;
+			padding-left: 5px;
+		}
+	}
+
+	dl{
+		float: left;
+		margin-right: 10px;
+	}
+/*	dt{
+		position: fixed;
+		left: 0px;
+		top: 0px;
+	}*/
+	dt,dd{
+		height: 30px;
+		line-height: 30px;
+		width: 160px;
+		padding-left: 5px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		&:nth-child(odd){
+			background:#F60;
+			color: #FFF;
+		}
+	}
+	.item{
+		position: relative;
+		.close{
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+	}
+	.wrap-contain{
+		/*width: 770px;*/
+		/*height: 260px;*/
+		/*overflow: hidden;*/
+		width: 1000em;
 	}
 }
