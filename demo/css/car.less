@@ -18,10 +18,12 @@
 .wrap{
 	background: #FFF;
 	padding: 20px;
-
+	overflow: hidden;
 }
 .car-detail{
 	.carousel{
+		float: left;
+		margin-right: 30px;
 		width: 560px;
 		.carousel-control{
 			font-size: 90px;
@@ -32,6 +34,43 @@
 				width: 560px;
 				height: 360px;
 			}
+		}
+	}
+	.info{
+		position: relative;
+		float: right;
+		width: 500px;
+		h3{
+			margin-top: 0;
+		}
+		#changeSotrage{
+			position: absolute;
+			right: 0;
+			top: -3px;
+		}
+		.info-btn{
+			margin-top: 10px;
+			.btn{
+				background: #F60;
+			}
+		}
+	}
+	.form-horizontal{
+		textarea{
+			width: 300px;
+			height: 100px;
+		}
+		.control-group{
+			margin-top: 10px;
+		}
+		.control-label{
+			float: left;
+			width: 80px;
+			padding-top: 5px;
+			text-align: left;			
+		}
+		.controls{
+			margin-left: 80px;
 		}
 	}
 	
