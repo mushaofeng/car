@@ -4,27 +4,260 @@
 	<meta charset="UTF-8">
 	<title>易购车</title>
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">	
+<link rel="stylesheet" href="./css/iconfont/iconfont.css">	
+<link rel="stylesheet" href="./css/common.css">
 <link rel="stylesheet" href="./css/index.css">	
 
 </head>
 <body>
 	<div class="navbar">
 		<div class="container">
+			<ul class="nav">
+				<li><a href="/">首页</a></li>
+				<li><a href="">购车指南</a></li>
+				<li><a href="">售后服务</a></li>
+				<li><a href="">关于我们</a></li>
+
+			</ul>			
 			<dl class="logo">
 				<dt>易购车</dt>
 				<dd>400-888-7777</dd>
 			</dl>
+			
+			<div class="gouche">
+				<a class="gouche-btn" href="#"><span class="caret"></span>开始购车</a>
+				<div class="gouche-layer">
+					<a href="#" class="close"><i class="icon-remove"></i></a>
+					<div class="bg"></div>
+					<ul class="layer">
+						<li>
+							<div class="btn-group">
+							  <a class="btn btn-primary label-txt" href="#"> 价格区间</a>
+							  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+							    <li><a href="#"><i class="icon-pencil"></i> 20万～30万</a></li>
+							    <li><a href="#"><i class="icon-trash"></i> 30万～40万</a></li>
+							    <li><a href="#"><i class="icon-ban-circle"></i> 40万～50万</a></li>
+							    <li class="divider"></li>
+							    <li><a href="#"><i class="i"></i> > 70万</a></li>
+							  </ul>
+							</div>							
+						</li>
+						<li>
+							<div class="btn-group">
+							  <a class="btn btn-primary label-txt" href="#"> 选择品牌</a>
+							  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+							    <li><a href="#"><i class="icon-pencil"></i> 奥迪</a></li>
+							    <li><a href="#"><i class="icon-trash"></i> 奔驰</a></li>
+							    <li><a href="#"><i class="icon-ban-circle"></i> 标致</a></li>
+							    <li><a href="#"><i class="i"></i>  宝马</a></li>
+							  </ul>
+							</div>							
+						</li>	
+						<li>
+							<div class="btn-group">
+							  <a class="btn btn-primary label-txt" href="#"> 选择车型</a>
+							  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+							    <li><a href="#"><i class="icon-pencil"></i> A级</a></li>
+							    <li><a href="#"><i class="icon-trash"></i> B级</a></li>
+							    <li><a href="#"><i class="icon-ban-circle"></i> C级</a></li>
+							    <li><a href="#"><i class="i"></i>  D级</a></li>
+							  </ul>
+							</div>							
+						</li>
+						<li class="item-price">
+							<a href="#" class="btn btn-large btn-primary" id="gitPrice" type="button">一键询价</a>
+						</li>											
+					</ul>
+				</div>
+			</div>
+
+
 		</div>		
 	</div>
 	<div class="page">
+		<div class="banner">
+			<!-- <img src="test/msf.png"> -->
+			<img src="test/banner1.png">
+		</div>
 		<div class="container">
-			
+			<div class="mod">
+				<div class="header">
+					<h3>热门推荐</h3>
+				</div>
+				<div class="body">
+					<ul class="list">
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>降价</dt>
+										<dd>22万</dd>
+									</dl>	
+									<ul class="btns-pic">
+										<i class="bg"></i>
+										<li>	
+											<a href="#"  title="赞一个"  class="iconfont icon-tuijian"></a>
+										</li>										
+										<li>
+											<a href="#" title="收藏" class="iconfont icon-shoucang"></a>
+										</li>
+										<li>
+											<a href="#"  title="分享"  class="iconfont icon-fenxiang"></a>
+										</li>								
+									</ul>				
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>						
+						</li>
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>热销</dt>
+										<dd>78台</dd>
+									</dl>					
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>								
+						</li>
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>特惠</dt>
+										<dd>限5台</dd>
+									</dl>					
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>								
+						</li>		
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>最新</dt>
+										<dd>125万</dd>
+									</dl>					
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>								
+						</li>										
+					</ul>
+				</div>
+			</div>
 		</div>		
 	</div>
 
 	<div class="footer">
 		<div class="container">
-			
+			<dl class="about-us">
+				<dt>联系我们</dt>
+				<dd>
+					<img src="./test/egche.png" width=100 height=100 alt="">
+					<p>QQ:03948595</p>
+					<p>电话：400-888-7777</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>平行进口车</dt>
+				<dd>什么是平行进口车？</dd>
+				<dd>那里可以找到平行进口车？</dd>
+				<dd>平行进口车的价格怎么算？</dd>
+			</dl>
+			<dl>
+				<dt>售后服务</dt>
+				<dd>什么是平行进口车？</dd>
+				<dd>那里可以找到平行进口车？</dd>
+				<dd>平行进口车的价格怎么算？</dd>
+			</dl>		
+			<dl>
+				<dt>购车帮助</dt>
+				<dd>什么是平行进口车？</dd>
+				<dd>那里可以找到平行进口车？</dd>
+				<dd>平行进口车的价格怎么算？</dd>
+			</dl>
+			<p class="bottom">
+ICP备案号：京ICP备09079231号-5 ©2014 egche.com 金宝名车汇
+			</p>				
 		</div>			
 	</div>
 
