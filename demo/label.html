@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<title>易购车</title>
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">	
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap-responsive.min.css">	
 <link rel="stylesheet" href="./css/bootstrap_patch.css">	
 
 <link rel="stylesheet" href="./css/iconfont/iconfont.css">	
 <link rel="stylesheet" href="./css/common.css">
-<link rel="stylesheet" href="./css/car.css">	
+<link rel="stylesheet" href="./css/label.css">	
 
 </head>
 <body>
@@ -81,138 +82,190 @@
 	</div>
 	<div class="page">
 		<div class="container">
-			<ul class="breadcrumb">
-			  <li><a href="#">首页</a> </li>
-			  <li><a href="#">玛莎拉蒂</a></li>
-			  <li class="active">两驱3.0T</li>
-			</ul>			
+			<div class="container-fluid">
+			  <div class="row-fluid">
+			    <div class="span2">
+			    	<div class="label-list">
+						<dl>
+							<dt>
+								<h4>价位</h4>
+							</dt>
+							<dd>
+								<a href="#"  class="label label-important">20～30万</a>
+								<a href="#"  class="label label-important">30～40万</a>
+								<a href="#"  class="label label-important">40～50万</a>
+							</dd>
+						</dl>				    		
+						<dl>
+							<dt>
+								<h4>品牌</h4>
+							</dt>
+							<dd>
+								<a href="#"  class="label label-important">路虎</a>
+								<a href="#"  class="label label-important">宝马</a>
+								<a href="#"  class="label label-important">奔驰</a>
+							</dd>
+						</dl>		
+						<dl>
+							<dt>
+								<h4>品牌</h4>
+							</dt>
+							<dd>
+								<a href="#"  class="label label-important">路虎</a>
+								<a href="#"  class="label label-important">宝马</a>
+								<a href="#"  class="label label-important">奔驰</a>
+							</dd>
+						</dl>
+			    	</div>
+			      <!--Sidebar content-->
+			    </div>
+			    <div class="span10">
+		    		<dl class="label-wrap">
+		    			<dt>标签：</dt>
+		    			<dd>
+							<a href="#"  class="label label-important">30～40万</a>
+							<a href="#"  class="label label-important">宝马</a>			    				
+		    			</dd>
+		    		</dl>
 
-			<div class="wrap">
-				<div class="car-detail">
-					<div id="myCarousel" class="carousel slide">
-					  <ol class="carousel-indicators">
-					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					    <li data-target="#myCarousel" data-slide-to="1"></li>
-					    <li data-target="#myCarousel" data-slide-to="2"></li>
-					  </ol>
-					  <!-- Carousel items -->
-					  <div class="carousel-inner">
-					    <div class="active item">
-					    	<img src="./test/carousel1.png" alt="">
-					    </div>
-					    <div class="item">
-					    	<img src="./test/carousel2.png" alt="">
-					    	
-					    </div>
-					    <div class="item">
-					    	<img src="./test/carousel3.png" alt="">
-					    	
-					    </div>
-					  </div>
-					  <!-- Carousel nav -->
-					  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-					  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-					</div>
-					<ul class="info">
-						<li>
-							<h3>14款 路虎揽胜运动3.0T 欧规柴油版</h3>
-							<a href="#" class="btn btn-large btn-primary " id="changeSotrage" type="button">更换车型</a>				
+					<ul class="list">
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>降价</dt>
+										<dd>22万</dd>
+									</dl>	
+									<ul class="btns-pic">
+										<i class="bg"></i>
+										<li>	
+											<a href="#"  title="赞一个"  class="iconfont icon-tuijian"></a>
+										</li>										
+										<li>
+											<a href="#" title="收藏" class="iconfont icon-shoucang"></a>
+										</li>
+										<li>
+											<a href="#"  title="分享"  class="iconfont icon-fenxiang"></a>
+										</li>								
+									</ul>				
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>						
 						</li>
-						<li>
-							<span class="del">
-								4S价格：110.8万 
-							</span>
-							&nbsp;&nbsp;&nbsp;&nbsp;
-							特价：
-							<span class="price">
-								95.5万
-							</span>
-							&nbsp;&nbsp;&nbsp;&nbsp;
-							为您节省<span class="price">22万</span>
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>热销</dt>
+										<dd>78台</dd>
+									</dl>					
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>								
 						</li>
-						<li>
-							<a href="#"  class="label label-important">路虎</a>  <a  href="#"  class="label label-important">SUV</a>
-						</li>
-						<li>
-							<form class="form-horizontal">
-							  <div class="control-group">
-							    <label class="control-label" for="inputEmail">外观颜色</label>
-							    <div class="controls">
-									<div class="btn-group">
-									  <a class="btn btn-primary label-txt" href="#"> 碳晶黑</a>
-									  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-									  <ul class="dropdown-menu">
-									    <li><a href="#"><i class="icon-pencil"></i> 珠光白</a></li>
-									    <li><a href="#"><i class="icon-trash"></i> 松木棕</a></li>
-									  </ul>
-									</div>	
-							    </div>
-							  </div>
-							  <div class="control-group">
-							    <label class="control-label" for="inputPassword">购车时间</label>
-							    <div class="controls">
-									<div class="btn-group">
-									  <a class="btn btn-primary label-txt" href="#"> 7天内到店购车</a>
-									  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-									  <ul class="dropdown-menu">
-									    <li><a href="#"><i class="icon-pencil"></i> 14天内到店购车</a></li>
-									    <li><a href="#"><i class="icon-trash"></i> 30天内到店购车</a></li>
-									  </ul>
-									</div>								    
-							    </div>
-							  </div>
-							  <div class="control-group">
-							    <label class="control-label" for="inputPassword">购车方式</label>
-							    <div class="controls">
-									<div class="btn-group">
-									  <a class="btn btn-primary label-txt" href="#"> 新车全款</a>
-									  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-									  <ul class="dropdown-menu">
-									    <li><a href="#"><i class="icon-pencil"></i> 新车贷款</a></li>
-									    <li><a href="#"><i class="icon-trash"></i> 置换全款</a></li>
-									  </ul>
-									</div>
-							    </div>
-							  </div>							  
-							  <div class="control-group">
-							    <label class="control-label" for="inputPassword">其它需求</label>
-							    <div class="controls">
-							      <textarea width=300 height=100 placeholder="请把您的其他需求告诉我们，以便我们更快速更准确的为您报价！" id="otherRequirement"></textarea>
-							    </div>
-							  </div>							  
-							</form>							
-						</li>
-<!-- 						<li>车辆状态：现车</li>
-						<li>车辆规制：欧规</li>
-						<li>车辆颜色：黑外黑内图片仅供参考，以实物为准</li>
-						<li>车架尾号：####</li> -->
-						<li class="info-btn"><a href="#" class="btn btn-large btn-primary " type="button">提交订单</a>	
-							<a href="#campareModal" class="btn btn-large btn-primary " type="button"  data-toggle="modal" >加入对比</a>
-						</li>
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>特惠</dt>
+										<dd>限5台</dd>
+									</dl>					
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>								
+						</li>		
+						<li class="item">
+							<div class="car-info">
+								<div class="pic">
+									<a href="" >
+										<img src="test/car1.png" alt="">
+									</a>				
+									<dl class="status">
+										<dt>最新</dt>
+										<dd>125万</dd>
+									</dl>					
+								</div>
+									
+								<ul class="detail">
+									<li class="title">
+										<a href="#">14款 路虎揽胜运动3.0T 欧规柴油版</a>
+									</li>
+									<li class="desc">											
+										白外黑内  车架尾号：#### 氙气大灯 全景天窗 前排座椅加热 导航 倒车影像 19...
+									</li>
+									<li class="price1">
+										4s价格：<span class="del">￥142.8万</span>
+										<span class="price">￥122.8万</span>
+									</li>
+									<li class="bottom">
+										<a href="#" class="btn btn-large btn-primary"  type="button">购车</a>
+										<a href="#" class="btn btn-large btn-primary btn-compare"  type="button">加入对比</a>							
+									</li>
+								</ul>
+							</div>								
+						</li>										
 					</ul>
-				</div>
-				<div class="cfg-detail">
-					<ul class="nav nav-tabs" id="carTab">
-					  <li class="active"><a href="#home">汽车配置</a></li>
-					  <li><a href="#profile">售后三包</a></li>
-					  <li><a href="#messages">如何上牌</a></li>
-					  <li><a href="#settings">线下看车</a></li>
-					</ul>
-					<div class="tab-content">
-					  <div class="tab-pane active" id="home">
-					  	<img src="./test/carpanel1.png" alt="">
-					  </div>
-					  <div class="tab-pane" id="profile">
-					  	<img src="./test/carpanel2.png" alt="">
-					  </div>
-					  <div class="tab-pane" id="messages">
-					  	<img src="./test/carpanel3.png" alt="">
-					  </div>
-					  <div class="tab-pane" id="settings">
-					  	<img src="./test/carpanel1.png" alt="">
-					  </div>
-					</div>					
-				</div>				
+						    		
+			      <!--Body content-->
+			    </div>
+			  </div>
 			</div>
 		</div>		
 	</div>

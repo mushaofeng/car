@@ -33,6 +33,10 @@ body{
 	/*border: 1px solid #f00;*/
 }
 .navbar{
+	position: fixed;
+	left: 0 ;
+	top: 0;
+	width: 100%;
 	margin-bottom:0;
 	padding: 10px 0 10px;
 	background: #222;
@@ -52,6 +56,11 @@ body{
 				border-right: 1px solid #FFF; 
 				color: #FFF;
 				font-size: 30px;
+				a{
+					display: block;
+					color: #FFF;
+					text-decoration: none;
+				}
 			}
 			dd{
 				float: left;
@@ -59,7 +68,7 @@ body{
 				margin-top: 10px;
 				font-size: 20px;
 				padding-left: 20px;
-				/*background: url(../img/icon_phone.png) 0 5px no-repeat;*/
+				background: url(../img/icon_phone.png) 0 5px no-repeat;
 				color: #FFF;
 			}
 		}
@@ -74,14 +83,23 @@ body{
 				padding-right: 20px;
 				font-size: 24px;
 				text-decoration: none;	
+				color: #F60;
 				/*background: url(../img/arrowdown.png) right 10px no-repeat;*/
 				.caret{
 					position: absolute;
 					right: 4px;
 					top: 13px;
+					transition: 500ms; 
+					-webkit-transition: 500ms; 
+					-moz-transition: 500ms;						
+				}
+				&:hover{
+
 				}
 			}
+
 			.gouche-layer{
+				display: none;
 				position: absolute;
 				padding: 25px;
 				width: 280px;
@@ -132,11 +150,23 @@ body{
 			}			
 
 		}
+		.up {
+			.gouche-btn{
+				.caret{
+					transform:rotate(-180deg);
+					-webkit-transform:rotate(-180deg);
+					-moz-transform:rotate(-180deg);
+				}					
+			}
+		}		
 		.nav{
 			float: right;
 			font-size: 16px;
 			li{
 				float: left;
+				a{
+					color: #F60;
+				}
 			}
 		}	
 	
@@ -147,6 +177,10 @@ body{
 		background: #F60;
 		text-align: center;
 	}
+}
+.page{
+	padding-top: 64px;
+
 }
 .footer{
 	background: #222;
@@ -218,8 +252,8 @@ body{
 		}
 		.btns-pic{
 			position: absolute;
-			right: 5px;
-			bottom: 5px;
+			right: -7px;
+			bottom: 3px;
 			height: 20px;
 			width: 80px;
 			li{
@@ -233,6 +267,13 @@ body{
 					text-decoration: none;
 					color: #F60;
 					cursor: pointer;
+					transition:500ms;
+					-webkit-transition:500ms;
+					-moz-transition:500ms;	
+					color: #000;					
+					&:hover{
+						color:#F60;										
+					}
 				}
 			}
 			.bg{
@@ -387,5 +428,13 @@ body{
 		/*height: 260px;*/
 		/*overflow: hidden;*/
 		width: 1000em;
+	}
+}
+.list{
+	width: 100%;
+	.item{
+		float: left;
+		margin-right: 15px;
+		/*overflow: hidden;*/
 	}
 }
